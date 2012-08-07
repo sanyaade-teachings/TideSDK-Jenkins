@@ -1,0 +1,68 @@
+[07/29/12 18:09:21] [SSH] Opening SSH connection to jenkins.automorpheus.com:22.
+[07/29/12 18:09:23] [SSH] Authenticating as prattd/******.
+[07/29/12 18:09:24] [SSH] Authentication successful.
+[07/29/12 18:09:37] [SSH] The remote users environment is:
+BASH=/bin/bash
+BASHOPTS=cmdhist:extquote:force_fignore:hostcomplete:interactive_comments:progcomp:promptvars:sourcepath
+BASH_ALIASES=()
+BASH_ARGC=()
+BASH_ARGV=()
+BASH_CMDS=()
+BASH_EXECUTION_STRING=set
+BASH_LINENO=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="4" [1]="2" [2]="24" [3]="1" [4]="release" [5]="i686-pc-linux-gnu")
+BASH_VERSION='4.2.24(1)-release'
+DIRSTACK=()
+EUID=1000
+GROUPS=()
+HOME=/home/prattd
+HOSTNAME=prattd-VirtualBox
+HOSTTYPE=i686
+IFS=$' \t\n'
+LANG=en_CA.UTF-8
+LANGUAGE=en_CA:en
+LOGNAME=prattd
+MACHTYPE=i686-pc-linux-gnu
+MAIL=/var/mail/prattd
+OPTERR=1
+OPTIND=1
+OSTYPE=linux-gnu
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+PIPESTATUS=([0]="0")
+PPID=20140
+PS4='+ '
+PWD=/home/prattd
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:hashall:interactive-comments
+SHLVL=1
+SSH_CLIENT='157.56.162.123 1045 22'
+SSH_CONNECTION='157.56.162.123 1045 192.168.2.13 22'
+TERM=dumb
+UID=1000
+USER=prattd
+XDG_SESSION_COOKIE=c1ec3f9e0918d76cc95a3ce20000000d-1343585364.705089-625700900
+_=']'
+[07/29/12 18:09:38] [SSH] Checking java version of java
+[07/29/12 18:09:39] [SSH] java -version returned 1.7.0_05.
+[07/29/12 18:09:39] [SSH] Starting sftp client.
+[07/29/12 18:09:40] [SSH] Copying latest slave.jar...
+[07/29/12 18:09:44] [SSH] Copied 271,592 bytes.
+[07/29/12 18:09:44] [SSH] Starting slave process: cd '/home/prattd/jenkins' && java  -jar slave.jar
+java.io.EOFException: unexpected stream termination
+	at hudson.remoting.ClassicCommandTransport.create(ClassicCommandTransport.java:100)
+	at hudson.remoting.Channel.<init>(Channel.java:390)
+	at hudson.remoting.Channel.<init>(Channel.java:386)
+	at hudson.remoting.Channel.<init>(Channel.java:347)
+	at hudson.remoting.Channel.<init>(Channel.java:343)
+	at hudson.slaves.SlaveComputer.setChannel(SlaveComputer.java:316)
+	at hudson.plugins.sshslaves.SSHLauncher.startSlave(SSHLauncher.java:454)
+	at hudson.plugins.sshslaves.SSHLauncher.launch(SSHLauncher.java:293)
+	at hudson.slaves.SlaveComputer$1.call(SlaveComputer.java:200)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[07/29/12 18:09:44] [SSH] Connection closed.
+Error: Invalid or corrupt jarfile slave.jar

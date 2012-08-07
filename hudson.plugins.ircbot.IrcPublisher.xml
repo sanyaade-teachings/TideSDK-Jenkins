@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.ircbot.IrcPublisher_-DescriptorImpl>
+  <helpRedirect/>
+  <enabled>true</enabled>
+  <hostname>chat.freenode.net</hostname>
+  <port>6667</port>
+  <ssl>false</ssl>
+  <password></password>
+  <nick>tidesdk-ci</nick>
+  <nickServPassword></nickServPassword>
+  <defaultTargets>
+    <hudson.plugins.im.GroupChatIMMessageTarget>
+      <name>#tidesdk</name>
+      <notificationOnly>true</notificationOnly>
+    </hudson.plugins.im.GroupChatIMMessageTarget>
+  </defaultTargets>
+  <commandPrefix>!jenkins</commandPrefix>
+  <hudsonLogin></hudsonLogin>
+  <useNotice>false</useNotice>
+  <charset>UTF-8</charset>
+</hudson.plugins.ircbot.IrcPublisher_-DescriptorImpl>

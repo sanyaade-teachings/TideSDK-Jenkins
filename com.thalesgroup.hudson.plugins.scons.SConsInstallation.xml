@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.thalesgroup.hudson.plugins.scons.SConsInstallation_-DescriptorImpl>
+  <helpRedirect/>
+  <installations>
+    <com.thalesgroup.hudson.plugins.scons.SConsInstallation>
+      <name>Mac Ports Scons</name>
+      <home>/opt/local/bin/scons</home>
+      <properties/>
+    </com.thalesgroup.hudson.plugins.scons.SConsInstallation>
+    <com.thalesgroup.hudson.plugins.scons.SConsInstallation>
+      <name>Scons Windows with Python 2.5</name>
+      <home>c:\Python25\Scripts\scons.bat</home>
+      <properties/>
+    </com.thalesgroup.hudson.plugins.scons.SConsInstallation>
+    <com.thalesgroup.hudson.plugins.scons.SConsInstallation>
+      <name>Mac Dubcanada</name>
+      <home>/usr/local/Cellar/scons/2.1.0/bin/scons</home>
+      <properties/>
+    </com.thalesgroup.hudson.plugins.scons.SConsInstallation>
+  </installations>
+</com.thalesgroup.hudson.plugins.scons.SConsInstallation_-DescriptorImpl>

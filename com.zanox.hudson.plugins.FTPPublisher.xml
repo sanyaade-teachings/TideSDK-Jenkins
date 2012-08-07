@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.zanox.hudson.plugins.FTPPublisher_-DescriptorImpl>
+  <helpRedirect/>
+  <sites>
+    <com.zanox.hudson.plugins.FTPSite>
+      <profileName>tidesdk.multipart.net</profileName>
+      <hostname>tidesdk.multipart.net</hostname>
+      <timeOut>300000</timeOut>
+      <port>21</port>
+      <username>tidesdk</username>
+      <password>6rhRXRLD3DGnQ6Gr</password>
+      <ftpDir>tidesdk.multipart.net</ftpDir>
+    </com.zanox.hudson.plugins.FTPSite>
+  </sites>
+  <flattenFilesSelectedByDefault>true</flattenFilesSelectedByDefault>
+</com.zanox.hudson.plugins.FTPPublisher_-DescriptorImpl>

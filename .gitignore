@@ -1,0 +1,34 @@
+#
+# The following ignores...
+# Miscellaneous Jenkins litter
+*.log
+*.tmp
+*.old
+*.bak
+*.jar
+*.json
+
+# Generated Jenkins state
+/.owner
+/secret.key
+/queue.xml
+/fingerprints/
+/shelvedProjects/
+/updates/
+
+# Tools that Jenkins manages
+/tools/
+
+# Extracted plugins
+plugins/
+
+# monitoring plugin files
+monitoring/
+
+# Job state
+builds/
+workspace/
+lastStable
+lastSuccessful
+nextBuildNumber
+modules/

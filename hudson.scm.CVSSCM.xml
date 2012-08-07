@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.scm.CVSSCM_-DescriptorImpl>
+  <helpRedirect/>
+  <generation>1</generation>
+  <compressionLevel>3</compressionLevel>
+  <privateKeyLocation>C:\/.ssh/id_rsa</privateKeyLocation>
+  <privateKeyPassword>AAkiLhrgExvB4sktx2WZ7g==</privateKeyPassword>
+  <knownHostsLocation>C:\/.ssh/known_hosts</knownHostsLocation>
+  <passwords/>
+</hudson.scm.CVSSCM_-DescriptorImpl>

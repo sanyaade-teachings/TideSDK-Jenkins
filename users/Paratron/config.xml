@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<user>
+  <fullName>Christian Engel</fullName>
+  <properties>
+    <jenkins.security.ApiTokenProperty>
+      <apiToken>u3XPNpj7BcneRTz1wXzvE9Cd0cui1AnJDOuIxbEbM3IACSIuGuATG8HiyS3HZZnu</apiToken>
+    </jenkins.security.ApiTokenProperty>
+    <hudson.plugins.ircbot.IrcUserProperty/>
+    <hudson.model.MyViewsProperty>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>Alle</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>false</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+    <hudson.tasks.Mailer_-UserProperty/>
+  </properties>
+</user>
