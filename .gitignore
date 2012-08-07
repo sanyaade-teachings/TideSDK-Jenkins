@@ -8,6 +8,8 @@
 *.jar
 *.json
 *.log.*
+*.war
+*.exe
 
 # Generated Jenkins state
 /.owner
