@@ -2,6 +2,6 @@
 <hudson.plugins.git.GitSCM_-DescriptorImpl>
   <helpRedirect/>
   <generation>324</generation>
-  <globalConfigName></globalConfigName>
-  <globalConfigEmail></globalConfigEmail>
+  <globalConfigName>Sir Jenkins</globalConfigName>
+  <globalConfigEmail>sirjenkins@tidesdk.org</globalConfigEmail>
 </hudson.plugins.git.GitSCM_-DescriptorImpl>

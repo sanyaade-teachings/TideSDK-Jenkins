@@ -25,7 +25,7 @@
       <command>cd &quot;$JENKINS_HOME&quot;
 git add -A --ignore-errors
 git commit -am &quot;Automated Jenkins commit&quot;
-sh git push origin master</command>
+git push origin master</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>

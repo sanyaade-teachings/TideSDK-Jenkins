@@ -1,7 +1,7 @@
 Signature-Version: 1.0
-SHA1-Digest-Manifest-Main-Attributes: sKhVuPJ4Tk2c23uRngtvc/tNGhk=
+SHA1-Digest-Manifest-Main-Attributes: yiZpIb919wI5ca5pVIx7elcNZTI=
 Created-By: 1.6.0_26 (Sun Microsystems Inc.)
-SHA1-Digest-Manifest: QVH5Rjgn4YH3Isx4tPom8B0ZLV8=
+SHA1-Digest-Manifest: TQi2m7JO7E2wOY5E5i9XAT1lJaU=
 
 Name: images/48x48/red_anime.gif
 SHA1-Digest: QN9DVYdyIlSoz3GUwFFdUyx3PS4=
@@ -332,7 +332,7 @@ Name: help/security/ldap/userSearchFilter.html
 SHA1-Digest: GEtRP7IdphHvQMZZ01RZisNCXRY=
 
 Name: META-INF/maven/org.jenkins-ci.main/jenkins-war/pom.xml
-SHA1-Digest: hj9Cw/Z/YdnA5emhrUJZ93siVJo=
+SHA1-Digest: Rw6lVeQNKcS9ztdMvcYzQrY2k1Q=
 
 Name: help/system-config/master-slave/demand/inDemandDelay_ja.html
 SHA1-Digest: NIAqeok82mQFZCRu59Nd0L0Y0mE=
@@ -365,7 +365,7 @@ Name: scripts/yui/assets/skins/sam/container.css
 SHA1-Digest: zABOtyhNuk3Hweq37+wZcRpVSZE=
 
 Name: WEB-INF/plugins/external-monitor-job.hpi
-SHA1-Digest: LcsrAFw9fqMuCYG0FHY5To448n8=
+SHA1-Digest: oeWBqPNBZWUQjarjGeRdf5+wY9w=
 
 Name: help/system-config/homeDirectory_ru.html
 SHA1-Digest: 5xJPJ5Y5Bv6jn0GAyFOWe7b8Mwo=
@@ -507,6 +507,9 @@ SHA1-Digest: 879TTng58SkWtw/Ue3vE2gB4YAQ=
 
 Name: WEB-INF/lib/spring-dao-1.2.9.jar
 SHA1-Digest: xPt25bCRBsH8Q2ucKD8z7In4aP4=
+
+Name: WEB-INF/lib/jenkins-core-1.479.jar
+SHA1-Digest: iQuW0xKgs32ZdnaOoQUC0upToyQ=
 
 Name: WEB-INF/lib/args4j-2.0.16.jar
 SHA1-Digest: vEo5TyP2O4ZZocjX6mP3sROgcR8=
@@ -691,11 +694,11 @@ SHA1-Digest: bcjlFpf/cvobnSUh143nMt/SHQk=
 Name: help/project-config/fingerprint_pt_BR.html
 SHA1-Digest: 9ZujRe13Y1ZzRMnYuPPp87HKONA=
 
-Name: WEB-INF/lib/commons-jelly-tags-define-1.0.1-hudson-20071021.jar
-SHA1-Digest: bnKBOQVeF+9+4Jql1cKCFHPjlEg=
-
 Name: help/system-config/master-slave/jnlpSecurity_fr.html
 SHA1-Digest: m2VozxJQ3/GqJevbIDHoQq3bhcY=
+
+Name: WEB-INF/lib/commons-jelly-tags-define-1.0.1-hudson-20071021.jar
+SHA1-Digest: bnKBOQVeF+9+4Jql1cKCFHPjlEg=
 
 Name: images/32x32/clock.png
 SHA1-Digest: INNBq4s+yYenZ20F1dAXPskI7So=
@@ -967,7 +970,7 @@ Name: images/24x24/delete-document.gif
 SHA1-Digest: KN3UEkIPGDr8K/pjHsiHanHrcRk=
 
 Name: WEB-INF/classes/META-INF/licenses.html
-SHA1-Digest: yYM03pPVS+Rxx2BjASqm8DNTH9c=
+SHA1-Digest: ud0XXsmBb8Ycbfp5UFfjd4cke+k=
 
 Name: scripts/yui/assets/skins/sam/skin.css
 SHA1-Digest: SP1GwfdGNgf4ErvTrU8wkibFm6k=
@@ -1138,7 +1141,7 @@ Name: help/security/legacy-auth-strategy_zh_CN.html
 SHA1-Digest: 6PE5O0FM/TOguSGRMLa/alEH7QE=
 
 Name: META-INF/maven/org.jenkins-ci.main/jenkins-war/pom.properties
-SHA1-Digest: hjGvt002lYJouWHitoulAiysDcg=
+SHA1-Digest: U1yInu70ph7Mxu/zeILpon3Bgzw=
 
 Name: help/system-config/master-slave/description.html
 SHA1-Digest: 2WuCUkyxVvbRQ4oBNYoGcvLUEGc=
@@ -1155,11 +1158,11 @@ SHA1-Digest: MQ8zgkn/nGCZF3fAlgQO2vwqpcE=
 Name: images/24x24/clipboard.png
 SHA1-Digest: DjAoKTFNsM5lWyUU7VVb/ekJOtA=
 
-Name: help/project-config/fingerprint_fr.html
-SHA1-Digest: 4sxvt5wBKOm5fgJBuRctXIJ9Xis=
-
 Name: help/shell/shellexe.html
 SHA1-Digest: q/v114iHqJMpQ+jEwG567ZXxq8s=
+
+Name: help/project-config/fingerprint_fr.html
+SHA1-Digest: 4sxvt5wBKOm5fgJBuRctXIJ9Xis=
 
 Name: images/32x32/setting.png
 SHA1-Digest: RMIe5suhTH/9f8kpf1uNkpC6Snw=
@@ -1399,9 +1402,6 @@ SHA1-Digest: vXzRb/i/yd900HyvUENdHA7K0gg=
 
 Name: help/project-config/slave_tr.html
 SHA1-Digest: zTkTRQbDHpi6bAXHFNdMXiDkwko=
-
-Name: WEB-INF/lib/jenkins-core-1.477.jar
-SHA1-Digest: rV5jXmbR+4/u1NeMECOOoKpQYvQ=
 
 Name: help/security/private-realm_pt_BR.html
 SHA1-Digest: kgP6nHsn6xHyvrqwUl0RB9pYmB8=
@@ -1693,7 +1693,7 @@ Name: images/16x16/user.gif
 SHA1-Digest: 3QKfFymOJzaTEPFS2jiP+5Z0VXw=
 
 Name: WEB-INF/plugins/maven-plugin.hpi
-SHA1-Digest: 0IrzThdY05jVtFN0gab0MM4EtdU=
+SHA1-Digest: v0p2ClrvkgWA4+PuRAGD7sJRy60=
 
 Name: images/16x16/notepad.gif
 SHA1-Digest: MOAaJVCFqUz93frnyOX0HMZzFcw=
@@ -1722,9 +1722,6 @@ SHA1-Digest: zakXy2HGGBOPC9+IooN732GVdIg=
 Name: images/32x32/health-20to39.gif
 SHA1-Digest: /+znaKygcY/WFYfmUKn9zvHoNHI=
 
-Name: WEB-INF/lib/cli-1.477.jar
-SHA1-Digest: kJf1a7OeWC0A+La7LYkFpsjAUgY=
-
 Name: help/security/full-control-once-logged-in_zh_CN.html
 SHA1-Digest: Zd4xS1K97YKcOJsH2YdQK1bWyPk=
 
@@ -1738,7 +1735,7 @@ Name: scripts/yui/element/element-min.js
 SHA1-Digest: lB/aFLbIOzX/uDzZr4vEQiJHThI=
 
 Name: WEB-INF/jenkins-cli.jar
-SHA1-Digest: rrxIQWL3TkZJLEF99RguL088g0I=
+SHA1-Digest: 1zY7wh3Q2NJ7xGzKcGs1dGzSJhM=
 
 Name: scripts/yui/treeview/assets/skins/sam/treeview.css
 SHA1-Digest: 9N7yw3Yx4mbP9u2G+BpjqMZu9D8=
@@ -2313,11 +2310,11 @@ SHA1-Digest: RLMPAycZPJvploxpS+eIRgZnd+w=
 Name: help/system-config/master-slave/demand/idleDelay_fr.html
 SHA1-Digest: E2wAdA28JFf441JeUVefLaPNonI=
 
-Name: scripts/yui/assets/skins/sam/blankimage.png
-SHA1-Digest: l7TE8DLA612XWKbxXAwNB42rPc8=
-
 Name: help/shell/shellexe_pt_BR.html
 SHA1-Digest: +KJgB31AEYOuSjriKDGgc5JfulM=
+
+Name: scripts/yui/assets/skins/sam/blankimage.png
+SHA1-Digest: l7TE8DLA612XWKbxXAwNB42rPc8=
 
 Name: scripts/yui/assets/skins/sam/menuitem_checkbox_disabled.png
 SHA1-Digest: hUs+tnL/OfPBvqMzdw3R+Rtg1rg=
@@ -2394,6 +2391,9 @@ SHA1-Digest: 5XqMzgfjtTYdc4dMvwMLhsfUE1U=
 
 Name: WEB-INF/lib/instance-identity-1.2.jar
 SHA1-Digest: vgY+NrOrVtylQZ/jwNV/XE6ZDng=
+
+Name: WEB-INF/lib/cli-1.479.jar
+SHA1-Digest: QBphMouUYDmOgs4zk953ZMO5THw=
 
 Name: WEB-INF/lib/dom4j-1.6.1-hudson-3.jar
 SHA1-Digest: oIKkmz81ybWzuSJkL7xMZ0+tZic=
@@ -2597,7 +2597,7 @@ Name: WEB-INF/lib/libzfs-0.5.jar
 SHA1-Digest: LZoSe74ZFHyZZPpWZ0XC+aYw/9Y=
 
 Name: WEB-INF/classes/META-INF/licenses.xml
-SHA1-Digest: /HWtCdYA1ENfM/++/sb3pRk62Vg=
+SHA1-Digest: SpODZ2+aX1nCSehJwzTckoHgyig=
 
 Name: images/16x16/yellow_anime.gif
 SHA1-Digest: ncqCVNWdL1Djpa5DJObpSMvmJHw=
@@ -2684,7 +2684,7 @@ Name: scripts/yui/editor/assets/skins/sam/simpleeditor-skin.css
 SHA1-Digest: tbN5d6+njUBExymaUwQ3SoeSEJs=
 
 Name: WEB-INF/web.xml
-SHA1-Digest: Glpb/EvCq7WrDJ0k+mpGDydtTh4=
+SHA1-Digest: hn0ApAS4o8IqichxTcyA/8RmGZI=
 
 Name: help/parameter/description.html
 SHA1-Digest: Jl9fy5W468Pfm8GqjWQT/o9/dVc=
@@ -3530,7 +3530,7 @@ Name: images/16x16/document_edit.gif
 SHA1-Digest: hKP+F6MgY4QMbLvssTqQyUvLnMU=
 
 Name: WEB-INF/classes/dependencies.txt
-SHA1-Digest: A3Kl7VhvbWvNCY2JTJKSrDgK9qU=
+SHA1-Digest: nYwux14uR1LGVsiVrkv12pyN8YE=
 
 Name: help/project-config/block-upstream-building.html
 SHA1-Digest: +SNe5j3Id3FqZDKJ4CiW1YPRDrU=

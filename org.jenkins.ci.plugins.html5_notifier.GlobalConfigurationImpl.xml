@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkins.ci.plugins.html5__notifier.GlobalConfigurationImpl>
+  <helpRedirect/>
+  <enabled>true</enabled>
+  <queryTimeout>30</queryTimeout>
+  <notificationTimeout>15000</notificationTimeout>
+  <allResults>true</allResults>
+</org.jenkins.ci.plugins.html5__notifier.GlobalConfigurationImpl>
