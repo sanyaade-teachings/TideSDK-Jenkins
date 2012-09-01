@@ -23,10 +23,9 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd &quot;$JENKINS_HOME&quot;
-export GIT_SSH=&quot;C:\Program Files (x86)\Putty\plink.exe&quot;
+export GIT_SSH=&quot;C:\plink.bat&quot;
 git add -A --ignore-errors
 git diff --quiet --exit-code --cached || git commit -q -am &quot;Automated Jenkins commit&quot;
-&quot;C:\Program Files (x86)\Putty\plink.exe&quot; -ssh -i C:\git.ppk -C agent
 git push origin master</command>
     </hudson.tasks.Shell>
   </builders>
