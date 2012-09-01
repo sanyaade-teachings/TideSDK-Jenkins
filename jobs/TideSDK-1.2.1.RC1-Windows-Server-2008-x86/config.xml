@@ -14,6 +14,9 @@ the 1.2 Windows branch until it is merged to the master.</description>
     <com.coravy.hudson.plugins.github.GithubProjectProperty>
       <projectUrl>https://github.com/TideSDK/TideSDK/</projectUrl>
     </com.coravy.hudson.plugins.github.GithubProjectProperty>
+    <org.jenkins.ci.plugins.html5__notifier.JobPropertyImpl>
+      <skip>false</skip>
+    </org.jenkins.ci.plugins.html5__notifier.JobPropertyImpl>
   </properties>
   <scm class="hudson.plugins.git.GitSCM">
     <configVersion>2</configVersion>
@@ -26,7 +29,7 @@ the 1.2 Windows branch until it is merged to the master.</description>
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>*/v1.2-windows</name>
+        <name>1.2.1.RC1</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <disableSubmodules>false</disableSubmodules>
@@ -66,7 +69,7 @@ the 1.2 Windows branch until it is merged to the master.</description>
     <hudson.tasks.BatchFile>
       <command>git submodule update --init
 cd kroll
-git checkout develop
+git checkout 0.1.11
 cd ..</command>
     </hudson.tasks.BatchFile>
     <com.thalesgroup.hudson.plugins.scons.SConsBuilderScriptFile>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <hudson>
   <disabledAdministrativeMonitors/>
-  <version>1.473</version>
+  <version>1.476</version>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
@@ -16,6 +16,7 @@
         <string>nazcasistemas</string>
         <string>Paratron</string>
         <string>dubcanada</string>
+        <string>Gorenjai</string>
         <string>matthewh</string>
       </adminUserNameList>
       <authenticatedUserReadPermission>true</authenticatedUserReadPermission>
@@ -305,7 +306,12 @@
       <numExecutors>1</numExecutors>
       <mode>NORMAL</mode>
       <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
-      <launcher class="hudson.slaves.JNLPLauncher"/>
+      <launcher class="hudson.plugins.sshslaves.SSHLauncher">
+        <host>chris-kiss.dyndns.org</host>
+        <port>22223</port>
+        <username>christian</username>
+        <password>h8Mh0/pqI8beVasFSKXVLt7eA+HlMzTOktfeNde8BYA=</password>
+      </launcher>
       <label></label>
       <nodeProperties>
         <hudson.slaves.EnvironmentVariablesNodeProperty>
@@ -313,7 +319,7 @@
             <unserializable-parents/>
             <tree-map>
               <default>
-                <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../../../../../slave/nodeProperties/hudson.slaves.EnvironmentVariablesNodeProperty/envVars/tree-map/default/comparator"/>
+                <comparator class="hudson.util.CaseInsensitiveComparator"/>
               </default>
               <int>1</int>
               <string>PATH</string>
@@ -770,6 +776,51 @@
         </hudson.tools.ToolLocationNodeProperty>
       </nodeProperties>
     </slave>
+    <slave>
+      <name>Mac-OSX-10.8.0-x86-64-gorenjai</name>
+      <description></description>
+      <remoteFS>/Users/Gorenjai/Jenkins</remoteFS>
+      <numExecutors>1</numExecutors>
+      <mode>NORMAL</mode>
+      <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+      <launcher class="hudson.plugins.sshslaves.SSHLauncher">
+        <host>gorenjai.no-ip.info</host>
+        <port>22</port>
+        <username>Shebin Rawther</username>
+        <password>Qx6rSnqM7u2uDVlHWeOUpYp0Bpl5oWKZAfAR4/r0ELg=</password>
+        <jvmOptions>-Xmx512m</jvmOptions>
+      </launcher>
+      <label></label>
+      <nodeProperties>
+        <hudson.slaves.EnvironmentVariablesNodeProperty>
+          <envVars serialization="custom">
+            <unserializable-parents/>
+            <tree-map>
+              <default>
+                <comparator class="hudson.util.CaseInsensitiveComparator"/>
+              </default>
+              <int>1</int>
+              <string>PATH</string>
+              <string>/Users/Gorenjai/.rvm/gems:/Users/Gorenjai/.rvm/gems/ruby-1.9.3-p194/bin:/Users/Gorenjai/.rvm/gems/ruby-1.9.3-p194/gems:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH</string>
+            </tree-map>
+          </envVars>
+        </hudson.slaves.EnvironmentVariablesNodeProperty>
+        <hudson.tools.ToolLocationNodeProperty>
+          <locations>
+            <hudson.tools.ToolLocationNodeProperty_-ToolLocation>
+              <type>hudson.plugins.git.GitTool$DescriptorImpl</type>
+              <name>Unix</name>
+              <home>/usr/bin/git</home>
+            </hudson.tools.ToolLocationNodeProperty_-ToolLocation>
+            <hudson.tools.ToolLocationNodeProperty_-ToolLocation>
+              <type>com.thalesgroup.hudson.plugins.scons.SConsInstallation$DescriptorImpl</type>
+              <name>Std /usr/local/bin</name>
+              <home>/usr/local/bin/scons</home>
+            </hudson.tools.ToolLocationNodeProperty_-ToolLocation>
+          </locations>
+        </hudson.tools.ToolLocationNodeProperty>
+      </nodeProperties>
+    </slave>
   </slaves>
   <quietPeriod>5</quietPeriod>
   <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
@@ -783,85 +834,7 @@
     </hudson.model.AllView>
     <listView>
       <owner class="hudson" reference="../../.."/>
-      <name>TideSDK-OSX</name>
-      <filterExecutors>false</filterExecutors>
-      <filterQueue>false</filterQueue>
-      <properties class="hudson.model.View$PropertyList"/>
-      <jobNames class="tree-set">
-        <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../../slaves/slave/nodeProperties/hudson.slaves.EnvironmentVariablesNodeProperty/envVars/tree-map/default/comparator"/>
-        <string>TideSDK-1.2.1.RC1-Mac-OSX-10.6.8-x86-64</string>
-        <string>TideSDK-1.2.1.RC1-Mac-OSX-10.8.0-x86-64</string>
-        <string>TideSDK-1.3.0-beta-Mac-OSX-10.7.4-x86-64</string>
-        <string>TideSDK-1.3.0-beta-Mac-OSX-10.8.0-x86-64</string>
-      </jobNames>
-      <jobFilters/>
-      <columns>
-        <hudson.views.StatusColumn/>
-        <hudson.views.WeatherColumn/>
-        <hudson.views.JobColumn/>
-        <hudson.views.LastSuccessColumn/>
-        <hudson.views.LastFailureColumn/>
-        <hudson.views.LastDurationColumn/>
-        <hudson.views.BuildButtonColumn/>
-      </columns>
-    </listView>
-    <listView>
-      <owner class="hudson" reference="../../.."/>
-      <name>TideSDK-Ubuntu</name>
-      <filterExecutors>false</filterExecutors>
-      <filterQueue>false</filterQueue>
-      <properties class="hudson.model.View$PropertyList"/>
-      <jobNames class="tree-set">
-        <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../../slaves/slave/nodeProperties/hudson.slaves.EnvironmentVariablesNodeProperty/envVars/tree-map/default/comparator"/>
-        <string>TideSDK-1.2.1.RC1-Ubuntu-10.10-x86-64</string>
-        <string>TideSDK-1.2.1.RC1-Ubuntu-11.04-x86-64</string>
-        <string>TideSDK-1.2.1.RC1-Ubuntu-11.10-x86</string>
-        <string>TideSDK-1.2.1.RC1-Ubuntu-11.10-x86-64</string>
-        <string>TideSDK-1.2.1.RC1-Ubuntu-12.04-x86</string>
-        <string>TideSDK-1.3.0-beta-Ubuntu-12.04-x86</string>
-        <string>TideSDK-1.3.0-beta-Ubuntu-12.04-x86-64</string>
-      </jobNames>
-      <jobFilters/>
-      <columns>
-        <hudson.views.StatusColumn/>
-        <hudson.views.WeatherColumn/>
-        <hudson.views.JobColumn/>
-        <hudson.views.LastSuccessColumn/>
-        <hudson.views.LastFailureColumn/>
-        <hudson.views.LastDurationColumn/>
-        <hudson.views.BuildButtonColumn/>
-      </columns>
-    </listView>
-    <listView>
-      <owner class="hudson" reference="../../.."/>
-      <name>TideSDK-Windows</name>
-      <filterExecutors>false</filterExecutors>
-      <filterQueue>false</filterQueue>
-      <properties class="hudson.model.View$PropertyList"/>
-      <jobNames class="tree-set">
-        <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../../slaves/slave/nodeProperties/hudson.slaves.EnvironmentVariablesNodeProperty/envVars/tree-map/default/comparator"/>
-        <string>TideSDK-1.2.1.RC1-Windows-7-x86-64</string>
-        <string>TideSDK-1.2.1.RC1-Windows-Server-2008-x86</string>
-        <string>TideSDK-1.3.0-beta-Windows-7-x86</string>
-        <string>TideSDK-1.3.0-beta-Windows-7-x86-64</string>
-        <string>TideSDK-1.3.0-beta-Windows-8-x86</string>
-        <string>TideSDK-1.3.0-beta-Windows-8-x86-64</string>
-        <string>TideSDK-1.3.0-beta-Windows-Server-2008-x86</string>
-      </jobNames>
-      <jobFilters/>
-      <columns>
-        <hudson.views.StatusColumn/>
-        <hudson.views.WeatherColumn/>
-        <hudson.views.JobColumn/>
-        <hudson.views.LastSuccessColumn/>
-        <hudson.views.LastFailureColumn/>
-        <hudson.views.LastDurationColumn/>
-        <hudson.views.BuildButtonColumn/>
-      </columns>
-    </listView>
-    <listView>
-      <owner class="hudson" reference="../../.."/>
-      <name>Docs</name>
+      <name>TideSDK-Docs</name>
       <filterExecutors>false</filterExecutors>
       <filterQueue>false</filterQueue>
       <properties class="hudson.model.View$PropertyList"/>
@@ -889,15 +862,15 @@
       <properties class="hudson.model.View$PropertyList"/>
       <jobNames class="tree-set">
         <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../../slaves/slave/nodeProperties/hudson.slaves.EnvironmentVariablesNodeProperty/envVars/tree-map/default/comparator"/>
-        <string>TideSDK-ThirdParty-OSX-0.1.0-x86-64-Mac-OSX-10.6.8</string>
-        <string>TideSDK-ThirdParty-OSX-0.1.0-x86-64-Mac-OSX-10.7.4</string>
-        <string>TideSDK-ThirdParty-Ubuntu-x86-0.1.0-Ubuntu-12.04</string>
-        <string>TideSDK-ThirdParty-Ubuntu-x86-64-0.1.0-Ubuntu-11.10</string>
-        <string>TideSDK-ThirdParty-Ubuntu-x86-64-0.1.0-Ubuntu-12.04</string>
-        <string>TideSDK-ThirdParty-Windows-0.1.0-x86-64-Windows-7</string>
-        <string>TideSDK-ThirdParty-Windows-0.1.0-x86-64-Windows-Server-2008</string>
-        <string>TideSDK-ThirdParty-Windows-0.1.0-x86-Windows-7</string>
-        <string>TideSDK-ThirdParty-Windows-0.1.0-x86-Windows-Server-2008</string>
+        <string>TideSDK-ThirdParty-OSX-x86-64-Mac-OSX-10.6.8</string>
+        <string>TideSDK-ThirdParty-OSX-x86-64-Mac-OSX-10.7.4</string>
+        <string>TideSDK-ThirdParty-Ubuntu-x86-64-Ubuntu-11.10</string>
+        <string>TideSDK-ThirdParty-Ubuntu-x86-64-Ubuntu-12.04</string>
+        <string>TideSDK-ThirdParty-Ubuntu-x86-Ubuntu-12.04</string>
+        <string>TideSDK-ThirdParty-Windows-x86-64-Windows-7</string>
+        <string>TideSDK-ThirdParty-Windows-x86-64-Windows-Server-2008</string>
+        <string>TideSDK-ThirdParty-Windows-x86-Windows-7</string>
+        <string>TideSDK-ThirdParty-Windows-x86-Windows-Server-2008</string>
       </jobNames>
       <jobFilters/>
       <columns>
@@ -919,7 +892,82 @@
       <jobNames class="tree-set">
         <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../../slaves/slave[16]/nodeProperties/hudson.slaves.EnvironmentVariablesNodeProperty/envVars/tree-map/default/comparator"/>
         <string>TideSDK-App-KitchenSink</string>
+        <string>TideSDK-App-PHP-MySQL</string>
+        <string>TideSDK-App-QuickSnap</string>
+        <string>TideSDK-App-SQLite</string>
         <string>TideSDK-App-TideSDK-Builder</string>
+        <string>TideSDK-App-Transparency</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>TideSDK-Legacy</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames class="tree-set">
+        <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../../slaves/slave[9]/nodeProperties/hudson.slaves.EnvironmentVariablesNodeProperty/envVars/tree-map/default/comparator"/>
+        <string>TideSDK-1.2.1.RC1-Mac-OSX-10.6.8-x86-64</string>
+        <string>TideSDK-1.2.1.RC1-Mac-OSX-10.7.4-x86-64</string>
+        <string>TideSDK-1.2.1.RC1-Mac-OSX-10.8.0-x86-64</string>
+        <string>TideSDK-1.2.1.RC1-Ubuntu-10.10-x86</string>
+        <string>TideSDK-1.2.1.RC1-Ubuntu-10.10-x86-64</string>
+        <string>TideSDK-1.2.1.RC1-Ubuntu-11.04-x86</string>
+        <string>TideSDK-1.2.1.RC1-Ubuntu-11.04-x86-64</string>
+        <string>TideSDK-1.2.1.RC1-Ubuntu-11.10-x86</string>
+        <string>TideSDK-1.2.1.RC1-Ubuntu-11.10-x86-64</string>
+        <string>TideSDK-1.2.1.RC1-Ubuntu-12.04-x86</string>
+        <string>TideSDK-1.2.1.RC1-Ubuntu-12.04-x86-64</string>
+        <string>TideSDK-1.2.1.RC1-Windows-7-x86</string>
+        <string>TideSDK-1.2.1.RC1-Windows-7-x86-64</string>
+        <string>TideSDK-1.2.1.RC1-Windows-8-x86</string>
+        <string>TideSDK-1.2.1.RC1-Windows-8-x86-64</string>
+        <string>TideSDK-1.2.1.RC1-Windows-Server-2008-x86</string>
+        <string>TideSDK-1.2.1.RC1-Windows-Server-2008-x86-64</string>
+        <string>TideSDK-1.2.1.RC1-Windows-XP-x86</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+    </listView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>TideSDK-1.3.0-beta</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames class="tree-set">
+        <comparator class="hudson.util.CaseInsensitiveComparator" reference="../../../../slaves/slave[9]/nodeProperties/hudson.slaves.EnvironmentVariablesNodeProperty/envVars/tree-map/default/comparator"/>
+        <string>TideSDK-Mac-OSX-10.7.4-x86-64</string>
+        <string>TideSDK-Mac-OSX-10.8.0-x86-64</string>
+        <string>TideSDK-Mac-OSX-10.8.0-x86-64-2</string>
+        <string>TideSDK-Mac-OSX-10.8.0-x86-64-ns</string>
+        <string>TideSDK-Ubuntu-12.04-x86</string>
+        <string>TideSDK-Ubuntu-12.04-x86-64</string>
+        <string>TideSDK-Windows-7-x86</string>
+        <string>TideSDK-Windows-7-x86-64</string>
+        <string>TideSDK-Windows-8-x86</string>
+        <string>TideSDK-Windows-8-x86-64</string>
+        <string>TideSDK-Windows-Server-2008-x86</string>
+        <string>TideSDK-Windows-Server-2008-x86-64</string>
+        <string>TideSDK-Windows-Server-2008-x86-64-ns</string>
       </jobNames>
       <jobFilters/>
       <columns>

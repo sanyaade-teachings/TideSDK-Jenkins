@@ -28,7 +28,7 @@ THE SOFTWARE.
   <parent>
     <groupId>org.jenkins-ci.main</groupId>
     <artifactId>pom</artifactId>
-    <version>1.473</version>
+    <version>1.477</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -70,6 +70,11 @@ THE SOFTWARE.
         <exclusion>
           <groupId>javax.servlet</groupId>
           <artifactId>jsp-api</artifactId>
+        </exclusion>
+        <!-- Stapler 1.195 fails to declare this as optional, and the 1.1 version lacks a license: -->
+        <exclusion>
+          <artifactId>metainf-services</artifactId>
+          <groupId>org.kohsuke.metainf-services</groupId>
         </exclusion>
       </exclusions>
     </dependency>

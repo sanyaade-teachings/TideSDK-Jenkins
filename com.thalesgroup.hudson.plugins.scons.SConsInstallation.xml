@@ -17,5 +17,10 @@
       <home>/usr/local/Cellar/scons/2.1.0/bin/scons</home>
       <properties/>
     </com.thalesgroup.hudson.plugins.scons.SConsInstallation>
+    <com.thalesgroup.hudson.plugins.scons.SConsInstallation>
+      <name>Std /usr/local/bin</name>
+      <home>/usr/local/bin/scons</home>
+      <properties/>
+    </com.thalesgroup.hudson.plugins.scons.SConsInstallation>
   </installations>
 </com.thalesgroup.hudson.plugins.scons.SConsInstallation_-DescriptorImpl>

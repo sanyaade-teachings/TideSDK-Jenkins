@@ -13,6 +13,9 @@
     <com.coravy.hudson.plugins.github.GithubProjectProperty>
       <projectUrl>https://github.com/TideSDK/TideSDK-User-Docs/</projectUrl>
     </com.coravy.hudson.plugins.github.GithubProjectProperty>
+    <org.jenkins.ci.plugins.html5__notifier.JobPropertyImpl>
+      <skip>false</skip>
+    </org.jenkins.ci.plugins.html5__notifier.JobPropertyImpl>
   </properties>
   <scm class="hudson.plugins.git.GitSCM">
     <configVersion>2</configVersion>
@@ -50,7 +53,7 @@
     <includedRegions></includedRegions>
     <scmName></scmName>
   </scm>
-  <assignedNode>Ubuntu-12.04-x86-paratron</assignedNode>
+  <assignedNode>Ubuntu-12.04-x86-paratron || Mac-OSX-10.8.0-x86-64-gorenjai</assignedNode>
   <canRoam>false</canRoam>
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
@@ -64,8 +67,15 @@
   <builders>
     <hudson.tasks.Shell>
       <command>rm -rf generated
+cd helpers/welcome
+nodejs welcome.build.js
+cd ..
+cd ..
 cd source
-jsduck --config doc_build.json</command>
+jsduck --config doc_build.json
+cd ..
+cd helpers/source_concatenator
+nodejs source-concatenator.js</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
