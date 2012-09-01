@@ -23,7 +23,6 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd &quot;$JENKINS_HOME&quot;
-export GIT_SSH=&apos;C:\Program Files\TortoiseGit\bin\TortoisePlink.exe -ssh -i C:\git.ppk&apos;
 git add -A --ignore-errors
 git diff --quiet --exit-code --cached || git commit -q -am &quot;Automated Jenkins commit&quot;
 git push origin master</command>
