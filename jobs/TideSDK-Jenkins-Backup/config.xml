@@ -23,10 +23,11 @@
   <builders>
     <hudson.tasks.BatchFile>
       <command>cd %JENKINS_HOME%
+set errorcode = git add . --ignore-errors
+set errorcode = git add -u --ignore-errors
 set errorcode = git add -A --ignore-errors
-echo %errorcode%
-git commit -am &quot;Automated Jenkins commit&quot;
-git push -q origin master</command>
+set errorcode = git commit -am &quot;Automated Jenkins commit&quot;
+set errorcode = git push origin master</command>
     </hudson.tasks.BatchFile>
   </builders>
   <publishers/>
