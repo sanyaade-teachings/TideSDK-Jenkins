@@ -24,7 +24,7 @@
     <hudson.tasks.Shell>
       <command>cd &quot;$JENKINS_HOME&quot;
 git add -A --ignore-errors
-git commit -am &quot;Automated Jenkins commit&quot;
+git commit -q -am &quot;Automated Jenkins commit&quot;
 push.bat</command>
     </hudson.tasks.Shell>
   </builders>
