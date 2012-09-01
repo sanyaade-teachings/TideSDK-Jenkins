@@ -23,10 +23,10 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd &quot;$JENKINS_HOME&quot;
-export GIT_SSH=&quot;C:\Program Files (x86)\Putty\plink.exe -ssh -i C:\git.ppk &quot;
+export GIT_SSH=&quot;C:\Program Files (x86)\Putty\plink.exe&quot;
 git add -A --ignore-errors
 git diff --quiet --exit-code --cached || git commit -q -am &quot;Automated Jenkins commit&quot;
-echo y | plink -i C:\git.ppk git@github.com
+echo y | $GIT_SSH -i C:\git.ppk git@github.com
 echo y | git push origin master</command>
     </hudson.tasks.Shell>
   </builders>
