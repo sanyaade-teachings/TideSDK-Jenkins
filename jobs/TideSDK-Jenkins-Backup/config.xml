@@ -26,7 +26,7 @@
 export GIT_SSH=&quot;C:\plink.exe&quot;
 start &quot;C:\Program Files (x86)\PuTTY\pageant.exe&quot; &quot;C:\git.ppk&quot;
 git add -A --ignore-errors
-git diff --quiet --exit-code --cached || git commit -q -am &quot;Automated Jenkins commit&quot;
+git commit -q -am &quot;Automated Jenkins commit&quot;
 git push origin master</command>
     </hudson.tasks.Shell>
   </builders>
