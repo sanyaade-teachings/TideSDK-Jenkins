@@ -53,7 +53,7 @@
     <includedRegions></includedRegions>
     <scmName></scmName>
   </scm>
-  <assignedNode>Ubuntu-12.04-x86-paratron || Mac-OSX-10.8.0-x86-64-gorenjai</assignedNode>
+  <assignedNode>Mac-OSX-10.7.4-x86-64-fairwinds</assignedNode>
   <canRoam>false</canRoam>
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
