@@ -19,7 +19,7 @@
     <hudson.search.UserSearchProperty>
       <insensitiveSearch>false</insensitiveSearch>
     </hudson.search.UserSearchProperty>
-    <hudson.plugins.ircbot.IrcUserProperty/>
+    <hudson.plugins.ircbot.IrcUserProperty plugin="ircbot@2.19"/>
     <hudson.tasks.Mailer_-UserProperty>
       <emailAddress>fairwinds.dp@gmail.com</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>

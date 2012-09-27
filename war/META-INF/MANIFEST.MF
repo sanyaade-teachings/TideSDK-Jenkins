@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Jenkins-Version: 1.481
-Implementation-Version: 1.481
+Jenkins-Version: 1.483
+Implementation-Version: 1.483
 Hudson-Version: 1.395
 Build-Jdk: 1.6.0_26
 Built-By: kohsuke
@@ -282,9 +282,6 @@ SHA1-Digest: xCaAj1mReZyuXDEJKJOXc3Dw3yY=
 Name: help/system-config/systemMessage_pt_BR.html
 SHA1-Digest: uGoMIszaH6T5EyhTYem0PgxOfiY=
 
-Name: WEB-INF/lib/stapler-1.195.jar
-SHA1-Digest: 4v59/Qmx0GHVaoTGZfADWyPIrVY=
-
 Name: images/16x16/fingerprint.gif
 SHA1-Digest: Wp5yD4chq4qifjYC1tmyW6rxpW0=
 
@@ -337,7 +334,7 @@ Name: help/security/ldap/userSearchFilter.html
 SHA1-Digest: F3Hb6GB3Gc+YNL6U27elUE+7aqQ=
 
 Name: META-INF/maven/org.jenkins-ci.main/jenkins-war/pom.xml
-SHA1-Digest: p2otG368t0yrSYRdCY9hIcqnkwk=
+SHA1-Digest: Sswu/UQF5xiBUx4I2h6AJvsyYPw=
 
 Name: help/system-config/master-slave/demand/inDemandDelay_ja.html
 SHA1-Digest: 8amhNlPk+EbRgjH5ZHaIQnZ+5Q4=
@@ -690,17 +687,20 @@ SHA1-Digest: JB8LSQkyFKI/bBpHFS+1kZ+WlG4=
 Name: help/security/private-realm/allow-signup_de.html
 SHA1-Digest: e1ZHuuquuepjM4Q+jbG5WOVaxsI=
 
+Name: WEB-INF/lib/cli-1.483.jar
+SHA1-Digest: FiFXGm7u0W8DByqhTDk4LeJA47w=
+
 Name: WEB-INF/lib/sshd-core-0.6.0.jar
 SHA1-Digest: K5oRndd6HezseLDFEbpADIZV6W4=
 
 Name: help/project-config/fingerprint_pt_BR.html
 SHA1-Digest: EqxLEUKhKq3ERsEog5ZqlF/igMI=
 
-Name: WEB-INF/lib/commons-jelly-tags-define-1.0.1-hudson-20071021.jar
-SHA1-Digest: i5UtDlBO5QXSNIUxGeVkhEGJQjQ=
-
 Name: help/system-config/master-slave/jnlpSecurity_fr.html
 SHA1-Digest: 5ZeCFrGfJrUT10yYb5N1Sctkspg=
+
+Name: WEB-INF/lib/commons-jelly-tags-define-1.0.1-hudson-20071021.jar
+SHA1-Digest: i5UtDlBO5QXSNIUxGeVkhEGJQjQ=
 
 Name: images/32x32/clock.png
 SHA1-Digest: T+pYZbAIRd5qhIvYDGYQQFVRyMQ=
@@ -775,7 +775,7 @@ Name: scripts/yui/autocomplete/assets/autocomplete-core.css
 SHA1-Digest: dFy7jfN2XPvWtoz+SjclWEd9Sao=
 
 Name: winstone.jar
-SHA1-Digest: kO5ps5Z5GFiL6RzH7viJGSW6OLk=
+SHA1-Digest: Mv92iEe9mZ7kdv/ICKd2qMLgDPA=
 
 Name: help/tasks/mailer/sendToindividuals_tr.html
 SHA1-Digest: VFZbT2kuDCMfTnv9kcrM5UyNxRE=
@@ -891,6 +891,9 @@ SHA1-Digest: 5VFQ8fTZt3LFyy6M4SsMUBaWXeg=
 Name: scripts/yui/menu/assets/menu_down_arrow_disabled.png
 SHA1-Digest: VlhCpwPtWsOHDJ/3tGElwHqv1cs=
 
+Name: WEB-INF/lib/stapler-1.196.jar
+SHA1-Digest: uGg8rWDPzPtRqPKZwnZhG3mytik=
+
 Name: help/LogRecorder/logger_de.html
 SHA1-Digest: kH6aMH6haXmb80RCx7ExJo4BYAo=
 
@@ -912,9 +915,6 @@ SHA1-Digest: rnnKJiqNK2xq+tyeio2V40EkGXU=
 
 Name: images/24x24/document.png
 SHA1-Digest: Kgn2oJWI3tje8GjN4x8AmNPtRlM=
-
-Name: WEB-INF/lib/jenkins-core-1.481.jar
-SHA1-Digest: QVe5pziRU1glzi0Gnl1HCQbaEeU=
 
 Name: help/system-config/nodeEnvironmentVariables.html
 SHA1-Digest: hCBEkt/v4cosXvLHfElonhag68k=
@@ -981,7 +981,7 @@ Name: images/24x24/delete-document.gif
 SHA1-Digest: j8ad7hwHVkfG33Xs84zQfZ4N3HI=
 
 Name: WEB-INF/classes/META-INF/licenses.html
-SHA1-Digest: 1rR2ZscaJL1iG79qedCnfbiZXyk=
+SHA1-Digest: T3u2C+WWnx6+lQmJ1bIqZ0V6G5s=
 
 Name: scripts/yui/assets/skins/sam/skin.css
 SHA1-Digest: dJtCFZCutII6hG+pjTuayLxBF5A=
@@ -1051,9 +1051,6 @@ SHA1-Digest: cSsv5ksB81+lxefQ8V3U2a92jlw=
 
 Name: WEB-INF/lib/stax-api-1.0.1.jar
 SHA1-Digest: ScEAyvctZYrKjli9dKS6kPorDXA=
-
-Name: WEB-INF/lib/stapler-groovy-1.195.jar
-SHA1-Digest: wphgWdOKDd7SyXQ45MjXciT9r3U=
 
 Name: help/project-config/batch_fr.html
 SHA1-Digest: iDy45sEefz/yKKoDS20rFD1AWDs=
@@ -1152,7 +1149,7 @@ Name: help/security/legacy-auth-strategy_zh_CN.html
 SHA1-Digest: xoAK4dz0f08mPCKHHgLSgb3uG3s=
 
 Name: META-INF/maven/org.jenkins-ci.main/jenkins-war/pom.properties
-SHA1-Digest: mLjbIf8DTyaUg0Lyz8+5KmmJtlc=
+SHA1-Digest: aau9bKzi/2cyhcucYUwoJ1o4/Yk=
 
 Name: help/system-config/master-slave/description.html
 SHA1-Digest: Uxkuxn0TlriLuEDGwJlmtTHiEGM=
@@ -1562,6 +1559,9 @@ SHA1-Digest: 40spdoZhquOzqLEANlJJ97idESU=
 Name: scripts/yui/treeview/treeview-debug.js
 SHA1-Digest: /bCSq6sp1FfVSKZic17WgJFs4MI=
 
+Name: WEB-INF/lib/jenkins-core-1.483.jar
+SHA1-Digest: 2VGFj+yxxlGeqgbfAHQhEJC6PfQ=
+
 Name: help/security/ldap/managerPassword_de.html
 SHA1-Digest: sX9uf9wOIl8Fla6ldxo6FQ6I9oY=
 
@@ -1701,7 +1701,7 @@ Name: images/16x16/user.gif
 SHA1-Digest: lY/vrdN37SyJkzC0hHTQKeZA2tw=
 
 Name: WEB-INF/plugins/maven-plugin.hpi
-SHA1-Digest: /4jGiF/qhZf9RpwpIeBR3uMQzoc=
+SHA1-Digest: SjME2BKQEeu2PbaQSWDK09UwOIw=
 
 Name: images/16x16/notepad.gif
 SHA1-Digest: 1sDvEF4YHtJxfCd9zNvT4C9/KIU=
@@ -1743,7 +1743,7 @@ Name: scripts/yui/element/element-min.js
 SHA1-Digest: 4xh5m79z6VPnRcDRxwWUdoJTLXk=
 
 Name: WEB-INF/jenkins-cli.jar
-SHA1-Digest: lZKbzzzn+tKeLcDDlulELx8Hz7g=
+SHA1-Digest: E4snMEP8qTFZuuQ76Ijnofe6WyA=
 
 Name: scripts/yui/treeview/assets/skins/sam/treeview.css
 SHA1-Digest: dnA5NsyggejAiUFMublW9eEZLoE=
@@ -1801,6 +1801,9 @@ SHA1-Digest: +/Dct2QlqQIOaoAD6QXw3Q9W3ZY=
 
 Name: help/shell/shellexe_fr.html
 SHA1-Digest: 8KFdf0BnxKLwzvw4lW2/2rDEhiw=
+
+Name: WEB-INF/lib/stapler-jrebel-1.196.jar
+SHA1-Digest: eS+tAVx37zib6wDygddCbzqBp8E=
 
 Name: WEB-INF/lib/commons-discovery-0.4.jar
 SHA1-Digest: njQX04Ztn3HoO5WbIps13HI8e+o=
@@ -2039,6 +2042,9 @@ SHA1-Digest: whHUkrPVrBWyi6ad9MaSyqLATWk=
 Name: images/16x16/search.png
 SHA1-Digest: pYHcke34zpPu1eC/cf1z6IIQhSU=
 
+Name: WEB-INF/lib/stapler-groovy-1.196.jar
+SHA1-Digest: YyXYOBGDSL3S66SCLeBZZ7oak80=
+
 Name: images/24x24/redo.png
 SHA1-Digest: 8LMVm1q/SjWVI8W0I3H81ViJBgQ=
 
@@ -2114,9 +2120,6 @@ SHA1-Digest: pAE6MwVk/lxuf1RPrkGJs8YOCnA=
 Name: WEB-INF/lib/tiger-types-1.3.jar
 SHA1-Digest: x5OIzfZTNQ1EWXYpioWTfL0jri4=
 
-Name: WEB-INF/lib/stapler-jrebel-1.195.jar
-SHA1-Digest: FG0kegsJ/rezmkJZJEt436SlFgI=
-
 Name: images/16x16/redo.png
 SHA1-Digest: CTvdTT8BK3ql5tLAPThH8gGYF6g=
 
@@ -2164,6 +2167,9 @@ SHA1-Digest: Nckd1KKJUx+w1LN7mqVvjVDOl0c=
 
 Name: images/32x32/error.gif
 SHA1-Digest: JFz+jssfhqWQNQ+dPxt1khHUVpw=
+
+Name: WEB-INF/lib/stapler-jelly-1.196.jar
+SHA1-Digest: bH2Q7IKlrwNAgy3Xi4CZ84vEuHA=
 
 Name: help/system-config/master-slave/description_ru.html
 SHA1-Digest: K+dJjRc/I4O8mw/UurIw3LLblD0=
@@ -2602,7 +2608,7 @@ Name: WEB-INF/lib/json-lib-2.1-rev7.jar
 SHA1-Digest: ZXUKwTQOnnUkUshAn1iQQLAvFT0=
 
 Name: WEB-INF/classes/META-INF/licenses.xml
-SHA1-Digest: 0Lj31lqTy1n7I2Q6ulJdp0o/QKE=
+SHA1-Digest: DyUY7CLI+uPGzr57Z13YqnPa66s=
 
 Name: images/24x24/yellow_anime.gif
 SHA1-Digest: Urd8n2kGy6zAAnhSnD681i2Sipo=
@@ -2673,9 +2679,6 @@ SHA1-Digest: +3iByGGnFBpw0crC9X7de3JC5wA=
 Name: scripts/yui/yahoo/yahoo-min.js
 SHA1-Digest: 9jIlrQjCdpEBt9sWBLuE7vB9Z0c=
 
-Name: WEB-INF/lib/stapler-jelly-1.195.jar
-SHA1-Digest: oKvQCvTXoxDAu5P5utJeRdZvA+o=
-
 Name: help/system-config/master-slave/clock.html
 SHA1-Digest: Q5FFtjUJVjQNH6DcxHx7RVR6cBo=
 
@@ -2689,7 +2692,7 @@ Name: scripts/yui/editor/assets/skins/sam/simpleeditor-skin.css
 SHA1-Digest: oZ8aB5DF7gq7Cg+O81dxQBZo5og=
 
 Name: WEB-INF/web.xml
-SHA1-Digest: yWqElUtFaCcWoKO2EmlXYJ1KkEM=
+SHA1-Digest: FiPIeAE727pWkc+ZNuwlAt03UHk=
 
 Name: help/parameter/description.html
 SHA1-Digest: yP0xR8ppnc7HhhOmnIsl2gSUMtE=
@@ -3321,9 +3324,6 @@ SHA1-Digest: GPaK85W6eaTOQyQTO/whbaPjaXU=
 Name: images/48x48/orange-square.png
 SHA1-Digest: rPk4bC3zLtcTwtlsetNla5HqL2E=
 
-Name: WEB-INF/lib/cli-1.481.jar
-SHA1-Digest: uA/WsC/ScJP6JmT5Y8e+Bhg1Eek=
-
 Name: images/24x24/monitor.gif
 SHA1-Digest: nqHN2dXr6+Ap0BL/jaDfQZ5Gsnc=
 
@@ -3541,7 +3541,7 @@ Name: help/project-config/block-upstream-building.html
 SHA1-Digest: Par/Qr+X3ukoo0xxR6Ws6BxMY3s=
 
 Name: WEB-INF/classes/dependencies.txt
-SHA1-Digest: k3ojWjZzLpNiyYs9/7ZS3PRULPk=
+SHA1-Digest: FqO3fNqadnsq/qCPd/xn70sOYnI=
 
 Name: images/32x32/health-80plus.png
 SHA1-Digest: kNSihFop6jljTEfcieXjEcZPUWI=
@@ -3616,7 +3616,7 @@ Name: help/security/no-authorization_ru.html
 SHA1-Digest: AS9pKn+wr2WD8RV977gXUnacGGM=
 
 Name: scripts/hudson-behavior.js
-SHA1-Digest: x7eWq3P0PrrFsTOdU6S+6/a7PRc=
+SHA1-Digest: 7EowVeCBsxMafL2D1peo8pSJLUM=
 
 Name: help/system-config/master-slave/usage_fr.html
 SHA1-Digest: UcZypMK4rLnRaGEDe04VO2vjIiw=
