@@ -5,7 +5,7 @@
     <jenkins.security.ApiTokenProperty>
       <apiToken>u3XPNpj7BcneRTz1wXzvE9Cd0cui1AnJDOuIxbEbM3IACSIuGuATG8HiyS3HZZnu</apiToken>
     </jenkins.security.ApiTokenProperty>
-    <hudson.plugins.ircbot.IrcUserProperty/>
+    <hudson.plugins.ircbot.IrcUserProperty plugin="ircbot@2.19"/>
     <hudson.model.MyViewsProperty>
       <views>
         <hudson.model.AllView>
